@@ -4,11 +4,14 @@ import (
 	"container/list"
 )
 
+//抽象目标
 type Subject interface {
 	Attach(Observer) //注册观察者
 	Detach(Observer) //释放观察者
 	Notify()         //通知所有注册的观察者
 }
+
+//抽象观察者
 type Observer interface {
 	Update(Subject) //观察者进行更新状态
 }
