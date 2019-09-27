@@ -1,9 +1,5 @@
 package main
 
-import (
-	"container/list"
-)
-
 //抽象目标
 type Subject interface {
 	Attach(Observer) //注册观察者
@@ -18,32 +14,32 @@ type Observer interface {
 
 //implements Subject
 type ConcreteSubject struct {
-	observers *list.List
+	observers []Observer
 	value     int
 }
 
 func NewConcreteSubject() *ConcreteSubject {
 	s := new(ConcreteSubject)
-	s.observers = list.New()
+	s.observers = make([]Observer,0)
 	return s
 }
 
 func (s *ConcreteSubject) Attach(observe Observer) { //注册观察者
-	s.observers.PushBack(observe)
+	s.observers = append(s.observers,observe)
 }
 
 func (s *ConcreteSubject) Detach(observer Observer) { //释放观察者
-	for ob := s.observers.Front(); ob != nil; ob = ob.Next() {
-		if ob.Value.(*Observer) == &observer {
-			s.observers.Remove(ob)
-			break
+
+	for i,ob :=range s.observers{
+		if ob == observer{
+			s.observers = append(s.observers[:i],s.observers[i+1:]...)
 		}
 	}
 }
 
 func (s *ConcreteSubject) Notify() { //通知所有观察者
-	for ob := s.observers.Front(); ob != nil; ob = ob.Next() {
-		ob.Value.(Observer).Update(s)
+	for _,ob :=range s.observers{
+		ob.Update(s)
 	}
 }
 
@@ -85,6 +81,7 @@ func main() {
 	observer2 := new(ConcreteObserver2)
 	subject.Attach(observer1)
 	subject.Attach(observer2)
+	//subject.Detach(observer1)
 	subject.setValue(5)
 
 }
