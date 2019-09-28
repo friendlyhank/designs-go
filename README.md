@@ -21,7 +21,7 @@
 
 * [中介者模式（Mediator）]()
 * [观察者模式（Observer）](https://github.com/friendlyhank/designs-go/tree/master/observer)
-* [命令模式（Command）]()
+* [命令模式（Command）](https://github.com/friendlyhank/designs-go/tree/master/command)
 * [迭代器模式（Iterator）](https://github.com/friendlyhank/designs-go/tree/master/iterator)
 * [模板方法模式（Template Method）]()
 * [策略模式（Strategy）](https://github.com/friendlyhank/designs-go/tree/master/strategy)

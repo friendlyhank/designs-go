@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32496532-b6ff-40eb-8a39-93bee31ae229" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/designs-go.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/command.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iterator/iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/iterator/iterator.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +16,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iterator/iterator.go">
+        <entry file="file://$PROJECT_DIR$/command/command.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-              <folding>
-                <element signature="e#14#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="69" column="14" lean-forward="true" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <entry file="file://$PROJECT_DIR$/command/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="50">
+                <caret line="2" column="131" selection-start-line="2" selection-start-column="131" selection-end-line="2" selection-end-column="131" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -44,19 +40,10 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+              <first_editor relative-caret-position="175">
+                <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/software/Go/src/container/list/list.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -92,6 +79,8 @@
         <option value="$PROJECT_DIR$/observer/observer.go" />
         <option value="$PROJECT_DIR$/iterator/iterator.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/command/command.go" />
+        <option value="$PROJECT_DIR$/command/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -114,6 +103,16 @@
               <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="designs-go" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,9 +126,14 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/command" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goproject\src\hank.com\designs-go\command" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,12 +147,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build iterator.go">
-    <configuration name="go build decoratorpattern.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build command.go">
+    <configuration name="go build command.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="designs-go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/decoratorpattern.go" />
+      <filePath value="$PROJECT_DIR$/command/command.go" />
       <package value="hank.com/designs-go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -191,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build command.go" />
         <item itemvalue="Go Build.go build iterator.go" />
         <item itemvalue="Go Build.go build observer.go" />
         <item itemvalue="Go Build.go build observerpattern.go" />
         <item itemvalue="Go Build.go build strategypattern.go" />
-        <item itemvalue="Go Build.go build decoratorpattern.go" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37393767" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2407932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42492917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,7 +220,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.060906515" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21954674" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -305,6 +309,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iterator/iterator.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-169">
@@ -315,10 +326,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/command/command.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="375">
+          <caret line="69" column="14" lean-forward="true" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="131" selection-start-line="2" selection-start-column="131" selection-end-line="2" selection-end-column="131" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -330,8 +351,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="24" column="83" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+          <first_editor relative-caret-position="175">
+            <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
           </first_editor>
           <second_editor />
         </state>
