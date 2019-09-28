@@ -10,7 +10,7 @@
 ## 结构型模式
 
 * [外观模式（Facade）]()
-* [适配器模式（Adapter）]()
+* [适配器模式（Adapter）](https://github.com/friendlyhank/designs-go/blob/master/adapter)
 * [代理模式（Proxy）]()
 * [组合模式（Composite）]()
 * [享元模式（Flyweight）]()
