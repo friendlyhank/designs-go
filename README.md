@@ -6,7 +6,7 @@ Go 语言设计模式的实例代码
 
 ## 创建型模式
 
-* [简单工厂模式（Simple Factory）]()
+* [简单工厂模式（Simple Factory）](https://github.com/friendlyhank/designs-go/blob/master/factory)
 * [工厂方法模式（Factory Method）]()
 * [抽象工厂模式（Abstract Factory）]()
 * [创建者模式（Builder）]()
