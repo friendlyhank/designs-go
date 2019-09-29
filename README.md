@@ -1,3 +1,9 @@
+# Go 语言设计模式
+
+[![Build Status](https://github.com/friendlyhank/designs-go)
+
+Go 语言设计模式的实例代码
+
 ## 创建型模式
 
 * [简单工厂模式（Simple Factory）]()
