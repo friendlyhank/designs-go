@@ -9,8 +9,8 @@
 
 ## 结构型模式
 
-* [外观模式（Facade）]()
-* [适配器模式（Adapter）]()
+* [外观模式（Facade）](https://github.com/friendlyhank/designs-go/blob/master/facade)
+* [适配器模式（Adapter）](https://github.com/friendlyhank/designs-go/blob/master/adapter)
 * [代理模式（Proxy）]()
 * [组合模式（Composite）]()
 * [享元模式（Flyweight）]()
@@ -21,8 +21,8 @@
 
 * [中介者模式（Mediator）]()
 * [观察者模式（Observer）](https://github.com/friendlyhank/designs-go/tree/master/observer)
-* [命令模式（Command）]()
-* [迭代器模式（Iterator）]()
+* [命令模式（Command）](https://github.com/friendlyhank/designs-go/tree/master/command)
+* [迭代器模式（Iterator）](https://github.com/friendlyhank/designs-go/tree/master/iterator)
 * [模板方法模式（Template Method）]()
 * [策略模式（Strategy）](https://github.com/friendlyhank/designs-go/tree/master/strategy)
 * [状态模式（State）]()
