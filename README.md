@@ -17,7 +17,7 @@ Go 语言设计模式的实例代码
 
 * [外观模式（Facade）](https://github.com/friendlyhank/designs-go/blob/master/facade)
 * [适配器模式（Adapter）](https://github.com/friendlyhank/designs-go/blob/master/adapter)
-* [代理模式（Proxy）]()
+* [代理模式（Proxy）](https://github.com/friendlyhank/designs-go/blob/master/proxy)
 * [组合模式（Composite）]()
 * [享元模式（Flyweight）]()
 * [装饰模式（Decorator）](https://github.com/friendlyhank/designs-go/blob/master/decorator)
