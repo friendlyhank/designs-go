@@ -75,7 +75,6 @@ func (ag *ConcreteAggregate)Remove(value interface{}){
 	}
 }
 
-
 func main(){
 	ag := &ConcreteAggregate{list:list.New()}
 	ag.Add("小明")
