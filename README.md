@@ -1,6 +1,5 @@
 # Go 语言设计模式
 
-[![Build Status](https://github.com/friendlyhank/designs-go)
 
 Go 语言设计模式的实例代码
 
