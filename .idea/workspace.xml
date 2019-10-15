@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7ac7559-2ee0-4435-90f6-03022892bb52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/singleton/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singleton/singleton.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/images/Adapter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/images/Adapter_classModel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/images/seq_Adapter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/builder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/images/Builder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/builder/images/seq_Builder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/images/Command.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/images/seq_Command.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/images/Decorator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/images/seq_Decorator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/images/Facade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/images/seq_Facade.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/images/FactoryMethod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/images/seq_FactoryMethod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iterator/images/iterator_pattern_uml_diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/images/Obeserver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer/images/seq_Obeserver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/images/Singleton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/images/seq_Singleton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/images/Strategy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/images/seq_Strategy.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/factory/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/images/SimpleFactory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/images/seq_SimpleFactory.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/singleton/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,18 +41,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory/factory.go">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/singleton/singleton.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#56#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/singleton/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="108">
+                <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -43,23 +63,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/singleton/README.md">
+        <entry file="file://$PROJECT_DIR$/observer/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iterator/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,10 +95,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/observer/observer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
+        <entry file="file://$PROJECT_DIR$/adapter/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/command/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factory/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facade/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="168" selection-start-line="2" selection-start-column="168" selection-end-line="2" selection-end-column="168" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,8 +169,12 @@
         <option value="$PROJECT_DIR$/facade/facade.go" />
         <option value="$PROJECT_DIR$/proxy/proxy.go" />
         <option value="$PROJECT_DIR$/singleton/singleton.go" />
+        <option value="$PROJECT_DIR$/builder/builder.go" />
+        <option value="$PROJECT_DIR$/factory/README.md" />
+        <option value="$PROJECT_DIR$/builder/README.md" />
         <option value="$PROJECT_DIR$/singleton/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/decorator/README.md" />
       </list>
     </option>
   </component>
@@ -116,6 +195,26 @@
               <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
               <item name="designs-go" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designs-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designs-go" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -130,16 +229,17 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/singleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/iterator/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\gopath\src\hank.com\designs-go\singleton" />
-      <recent name="E:\gopath\src\hank.com\designs-go\proxy\images" />
-      <recent name="E:\gopath\src\hank.com\designs-go\proxy" />
-      <recent name="E:\gopath\src\hank.com\designs-go\facade" />
+      <recent name="E:\gopath\src\hank.com\designs-go\iterator\images" />
+      <recent name="E:\gopath\src\hank.com\designs-go\singleton\images" />
+      <recent name="E:\gopath\src\hank.com\designs-go\strategy\images" />
+      <recent name="E:\gopath\src\hank.com\designs-go\observer\images" />
+      <recent name="E:\gopath\src\hank.com\designs-go\facade\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,7 +254,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build singleton.go">
+  <component name="RunManager" selected="Go Build.go build builder.go">
+    <configuration name="go build builder.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="designs-go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/builder/builder.go" />
+      <package value="hank.com/designs-go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build facade.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="designs-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -193,6 +302,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build builder.go" />
         <item itemvalue="Go Build.go build singleton.go" />
         <item itemvalue="Go Build.go build proxy.go" />
         <item itemvalue="Go Build.go build facade.go" />
@@ -205,16 +315,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.09115139" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.1583514" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.21691974" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.22993493" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.2559653" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -257,38 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/command.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/adapter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facade/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facade/facade.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/proxy.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -303,13 +381,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/factory/factory.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/builder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="83" column="20" selection-start-line="83" selection-start-column="20" selection-end-line="83" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/singleton/singleton.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="570">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#14#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/images/Proxy.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/command.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/adapter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/strategy.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facade/facade.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -321,25 +464,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/README.md">
+    <entry file="file://$PROJECT_DIR$/observer/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory/factory.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/facade/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="168" selection-start-line="2" selection-start-column="168" selection-end-line="2" selection-end-column="168" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>

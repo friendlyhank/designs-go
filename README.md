@@ -8,7 +8,7 @@ Go 语言设计模式的实例代码
 * [简单工厂模式（Simple Factory）]()
 * [工厂方法模式（Factory Method）](https://github.com/friendlyhank/designs-go/blob/master/factory)
 * [抽象工厂模式（Abstract Factory）]()
-* [创建者模式（Builder）]()
+* [创建者模式（Builder）](https://github.com/friendlyhank/designs-go/blob/master/builder)
 * [原型模式（Prototype）]()
 * [单例模式（Singleton）](https://github.com/friendlyhank/designs-go/blob/master/singleton)
 
